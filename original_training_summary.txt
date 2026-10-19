@@ -1,0 +1,21 @@
+HISTORICAL SOURCE OUTPUT — NOT A NEW TRAINING RUN
+Source: https://github.com/pod369/Image-processing-4/blob/b2f9a5b94bbe353cce22ce469e358bb2715759ce/Hangeul.ipynb
+Retrieved/organized: 2026-10-14 (Asia/Seoul)
+Original run date: not recorded in the notebook output.
+Source settings: YOLOv8n, epochs=100, imgsz=640, Ultralytics 8.3.234.
+Dataset ZIP and trained weights are not included in this repository.
+The following metrics use the original validation split (2 images, 724 instances).
+They are not held-out test performance and were not reproduced during this organization.
+
+100 epochs completed in 0.018 hours.
+Optimizer stripped from /content/runs/detect/train/weights/last.pt, 6.2MB
+Optimizer stripped from /content/runs/detect/train/weights/best.pt, 6.2MB
+
+Validating /content/runs/detect/train/weights/best.pt...
+Ultralytics 8.3.234 🚀 Python-3.12.12 torch-2.9.0+cu126 CUDA:0 (Tesla T4, 15095MiB)
+Model summary (fused): 72 layers, 3,005,843 parameters, 0 gradients, 8.1 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 13.2it/s 0.1s
+                   all          2        724      0.862      0.714      0.786      0.416
+Speed: 0.2ms preprocess, 7.5ms inference, 0.0ms loss, 2.7ms postprocess per image
+Results saved to /content/runs/detect/train
+

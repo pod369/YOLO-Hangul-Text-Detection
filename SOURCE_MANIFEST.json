@@ -1,0 +1,16 @@
+{
+  "source_repository": "pod369/Image-processing-4",
+  "source_commit": "b2f9a5b94bbe353cce22ce469e358bb2715759ce",
+  "organized_on": "2026-10-14",
+  "reference_files_preserve_original_bytes": true,
+  "standalone_reorganized_on": "2026-10-19",
+  "files": [
+    {
+      "local_path": "reference/Hangeul.ipynb",
+      "original_path": "Hangeul.ipynb",
+      "source_blob_sha": "e08a9a0af774eafd8a59f169b51af246449d0417",
+      "sha256": "8475a4789d26d64c22513cd726073e3f491ca86543f27a8bfa414082117ff7e7",
+      "size_bytes": 388257
+    }
+  ]
+}

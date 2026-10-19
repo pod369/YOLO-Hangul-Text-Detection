@@ -1,0 +1,10 @@
+# Copy to data.yaml and replace this with your dataset's ABSOLUTE path.
+# Do not run this template unchanged.
+path: /absolute/path/to/hangul_dataset
+train: train/images
+val: valid/images
+# Add test only after creating a separate held-out test split.
+# test: test/images
+nc: 1
+names:
+  0: hangul_text
